@@ -33,7 +33,7 @@ for MULTIMETER in MULTIMETERS:
                         INSERT INTO {}
                             (datetime, device, measurement, value)
                         VALUES
-                            (NOW(), {}, {}, {});
+                            (NOW(), '{}', '{}', {});
                         """.format(TABLE_NAME, MULTIMETER["device"], MEASUREMENT["measurement"], float_value))
         
     connection.commit()
