@@ -1,0 +1,121 @@
+﻿offset,registers,name,format,unit
+1,2,Voltage Va-n,Float,V
+3,2,Voltage Vb-n,Float,V
+5,2,Voltage Vc-n,Float,V
+7,2,Voltage Va-b,Float,V
+9,2,Voltage Vb-c,Float,V
+11,2,Voltage Vc-a,Float,V
+13,2,Current a,Float,A
+15,2,Current b,Float,A
+17,2,Current c,Float,A
+19,2,Apparent Power a,Float,VA
+21,2,Apparent Power b,Float,VA
+23,2,Apparent Power c,Float,VA
+25,2,Active Power a,Float,W
+27,2,Active Power b,Float,W
+29,2,Active Power c,Float,W
+31,2,Reactive Power a,Float,var
+33,2,Reactive Power b,Float,var
+35,2,Reactive Power c,Float,var
+37,2,Power Factor a,Float,
+39,2,Power Factor b,Float,
+41,2,Power Factor c,Float,
+43,2,THD-R Voltage a,Float,%
+45,2,THD-R Voltage b,Float,%
+47,2,THD-R Voltage c,Float,%
+49,2,THD-R Current a,Float,%
+51,2,THD-R Current b,Float,%
+53,2,THD-R Current c,Float,%
+55,2,Frequency,Float,Hz
+57,2,Avg. Voltage Vph-n,Float,V
+59,2,Avg. Voltage Vph-ph,Float,V
+61,2,Avg. Current,Float,A
+63,2,Total Apparent Power,Float,VA
+65,2,Total Active Power,Float,W
+67,2,Total Reactive Power,Float,var
+69,2,Total Power Factor,Float,
+71,2,Amplitude Unbalance - Voltage,Float,%
+73,2,Amplitude Unbalance - Current,Float,%
+75,2,Max. Voltage Va-n,Float,V
+77,2,Max. Voltage Vb-n,Float,V
+79,2,Max. Voltage Vc-n,Float,V
+81,2,Max. Voltage Va-b,Float,V
+83,2,Max. Voltage Vb-c,Float,V
+85,2,Max. Voltage Vc-a,Float,V
+87,2,Max. Current a,Float,A
+89,2,Max. Current b,Float,A
+91,2,Max. Current c,Float,A
+93,2,Max. Apparent Power a,Float,VA
+95,2,Max. Apparent Power b,Float,VA
+97,2,Max. Apparent Power c,Float,VA
+99,2,Max. Active Power a,Float,W
+101,2,Max. Active Power b,Float,W
+103,2,Max. Active Power c,Float,W
+105,2,Max. Reactive Power a,Float,var
+107,2,Max. Reactive Power b,Float,var
+109,2,Max. Reactive Power c,Float,var
+111,2,Max. Power Factor a,Float,
+113,2,Max. Power Factor b,Float,
+115,2,Max. Power Factor c,Float,
+117,2,Max. THD-R Voltage a,Float,%
+119,2,Max. THD-R Voltage b,Float,%
+121,2,Max. THD-R Voltage c,Float,%
+123,2,Max. THD-R Current a,Float,%
+125,2,Max. THD-R Current b,Float,%
+127,2,Max. THD-R Current c,Float,%
+129,2,Max. Frequency,Float,Hz
+131,2,Max. Avg. Voltage Vph-n,Float,V
+133,2,Max. Avg. Voltage Vph-ph,Float,V
+135,2,Max. Avg. Current,Float,A
+137,2,Max. Total Apparent Power,Float,VA
+139,2,Max. Total Active Power,Float,W
+141,2,Max. Total Reactive Power,Float,var
+143,2,Max. Total Power Factor,Float,
+145,2,Min. Voltage Va-n,Float,V
+147,2,Min. Voltage Vb-n,Float,V
+149,2,Min. Voltage Vc-n,Float,V
+151,2,Min. Voltage Va-b,Float,V
+153,2,Min. Voltage Vb-c,Float,V
+155,2,Min. Voltage Vc-a,Float,V
+157,2,Min. Current a,Float,A
+159,2,Min. Current b,Float,A
+161,2,Min. Current c,Float,A
+163,2,Min. Apparent Pwr a,Float,VA
+165,2,Min. Apparent Pwr b,Float,VA
+167,2,Min. Apparent Pwr c,Float,VA
+169,2,Min. Active Power a,Float,W
+171,2,Min. Active Power b,Float,W
+173,2,Min. Active Power c,Float,W
+175,2,Min. Reactive Pwr a,Float,var
+177,2,Min. Reactive Pwr b,Float,var
+179,2,Min. Reactive Pwr c,Float,var
+181,2,Min. Power Factor a,Float,
+183,2,Min. Power Factor b,Float,
+185,2,Min. Power Factor c,Float,
+187,2,Min. Frequency,Float,Hz
+189,2,Min. Avg. Volt Vph-n,Float,V
+191,2,Min. Avg. Volt Vph-ph,Float,V
+193,2,Min. Avg. Current,Float,A
+195,2,Min. Total App. Pwr,Float,VA
+197,2,Min. Total Act. Pwr,Float,W
+199,2,Min. Total Reac. Pwr,Float,var
+201,2,Min. Total Pwr Fact.,Float,var
+501,2,Demand Act. Pwr Imp,Float,W
+503,2,Demand Reac. Pwr Imp,Float,var
+505,2,Demand Act. Pwr Exp,Float,W
+507,2,Demand Reac. Pwr Exp,Float,var
+509,2,Max. Act. Pwr,Float,W
+511,2,Min. Act. Pwr,Float,W
+513,2,Max. Reactive Pwr,Float,var
+515,2,Min. Reactive Pwr,Float,var
+801,4,Act. Nrg Import T1,Double,Wh
+805,4,Act. Nrg Import T2,Double,Wh
+809,4,Act. Nrg Export T1,Double,Wh
+813,4,Act. Nrg Export T2,Double,Wh
+817,4,React. Nrg Import T1,Double,varh
+821,4,React. Nrg Import T2,Double,varh
+825,4,React. Nrg Export T1,Double,varh
+829,4,React. Nrg Export T2,Double,varh
+833,4,Apparent Nrg T1,Double,VAh
+837,4,Apparent Nrg T2,Double,VAh
+,,,,
