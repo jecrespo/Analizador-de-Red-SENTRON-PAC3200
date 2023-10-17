@@ -10,7 +10,7 @@ DB_PARAMS = {
     "host": "localhost",                # E.g., "localhost" or "127.0.0.1"
     "database": "energy_measurements",  # The name of your database
     "user": "postgres",                 # The database user
-    "password": "EMMANadmin"            # The password for the database user
+    "password": "your_password"            # The password for the database user
 }
 
 TABLE_NAME = "sentron_pac3200_measurements" # The name of the table in the db
