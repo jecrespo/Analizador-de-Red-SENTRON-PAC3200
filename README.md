@@ -96,6 +96,26 @@ Now you are ready to config your parameters.
 
 Open the file config.py and follow the instructions to add the parameters of your database and of your multimeters. You can add more than one multimeter.
 
+Now, you can run the main.py file, and the project is working.
+
+### Task scheduler
+
+Now, we are going to schedule the python script. If you are on Windows, we have the tool Task Scheduler.
+
+1. Open the tool, and in the right select "New task".
+2. Write some name and description.
+3. Add new trigger, in here:
+   1. Choose "One time".
+   2. In advanced configuration, set "repeat each" with the interval you want. For example, 10 minutes.
+   3. Set "during" in "indifinitely".
+4. Add new action, in here:
+   1. Set "start new program".
+   2. In program or script, select the executable of Python. If you have virtual env, select the executable of the venv, if not, select the global.
+   3. In arguments, add the path to the main.py file. Add the path within "". For example, "C:\Users\User\Documents\SENTRON-PAC3200-Datalog\main.py".
+5. Save all and acept.
+
+The script will be executed automatically thanks to the task scheduler. As long as the PC is turned on, the script will be running in the background, saving the information from the multimeters.
+
 ## Links
 
 Multimeter: https://w5.siemens.com/spain/web/es/ic/building_technologies/sp_baja_tension/analizadores_sentron/SENTRONPAC3200/Pages/PAC3200.aspx
